@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <title>Cevicheria Braveza Marina</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="orange.css" />
+
+    <!-- Modernizer -->
+    <script src="modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <nav class="navbar navbar-default" id="mainNav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                                        <img src="images/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#about">Nosotros</a></li>
+                                    <li><a href="#special-menu">Mejores Platos</a></li>
+                                    <li><a href="#bebidas">Bebidas</a></li>
+                                    <li><a href="#platos">Platos</a></li>
+                                    <li><a href="#carta">Platos Carta</a></li>
+                                    <li><a href="#menu">Menu</a></li>
+                                    <li><a href="#footer">Contactos</a></li>
+                                </ul>
+                            </div>                            
+                            <style>
+                                #navbar {
+    background-color: rgba(255, 255, 255, 0.5); /* Cambia el valor 0.5 para ajustar la transparencia */
+    /* O simplemente usa: */
+    background-color: transparent;
+}
+
+.navbar-nav > li > a {
+    color: #00000000; /* Cambia el color del texto según necesites */
+}
+
+/* Si deseas que los enlaces cambien de color al pasar el mouse */
+.navbar-nav > li > a:hover {
+    color: #ff0000; /* Cambia a un color que desees para el hover */
+}
+
+                                </style>
+                            <!-- end nav-collapse -->
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+    </div>
+	<!-- end site-header -->
+	
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>Cevicheria Braveza<span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Marina:Marina" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2>Descubre el Sabor del Mar</h2>
+                            <p>Disfruta de la frescura y calidad de nuestros ceviches, preparados con los mejores ingredientes.</p>
+                            <div class="book-btn">
+                                <a href="#reservation" class="table-btn hvr-underline-from-center">Reserva tu Mesa</a>
+                            </div>
+                            <a href="#about">
+                                <div class="mouse"></div>
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+         <style>
+ #banner {
+    background-image: url('images/banner.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el espacio */
+    background-position: 200px center; /* Ajusta el valor de 200px según sea necesario */
+    height: 90vh; /* Asegura que ocupe toda la altura de la pantalla */
+}
+
+
+            </style>
+        <div id="about" class="about-main pad-top-100 pad-bottom-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="block-title">Sobre Nosotros</h2>
+                            <h3>UNA EXPERIENCIA MARINA INIGUALABLE...</h3>
+                            <p>En Braveza Marina, nos dedicamos a ofrecerte la mejor experiencia gastronómica del mar. Nuestros ceviches están preparados con los ingredientes más frescos, capturando la esencia del océano en cada bocado.</p>
+        
+                            <p>Creemos en la calidad y la pasión por la cocina. Cada plato es una obra maestra, creado con amor y atención al detalle. Nuestro equipo de chefs expertos está comprometido a brindarte sabores auténticos que te transportarán a las costas más bellas.</p>
+        
+                            <p>Te invitamos a un viaje culinario donde la frescura y el sabor se unen. ¡Ven y descubre por qué somos la cevichería favorita de la ciudad!</p>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="about-images">
+                                <img class="about-main" src="images/about-main.jpg" alt="Imagen Principal de Braveza Marina">
+                                <img class="about-inset" src="images/about-inset.jpg" alt="Imagen Inset de Braveza Marina">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        
+
+    <div id="special-menu" class="special-menu pad-top-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> PLATOS ESPECIALES</h2>
+                        <h5 class="title-caption text-center"> Descubre nuestra selección de platos únicos, preparados con ingredientes frescos y pasión. Cada bocado es una experiencia que deleitará tu paladar. </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            CEVICHE FILETE
+                                            <div class="line"></div>
+                                            <div class="dit-line">Delicioso ceviche de pescado fresco, marinado en jugo de limón con cebolla, cilantro y un toque de picante.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            TRIOS MARINOS
+                                            <div class="line"></div>
+                                            <div class="dit-line">Exquisita combinación de mariscos frescos, sazonados y acompañados de salsas artesanales, perfectos para compartir.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            LECHE TIGRE
+                                            <div class="line"></div>
+                                            <div class="dit-line">Refrescante y picante, nuestra leche tigre es el acompañante perfecto para tu ceviche, hecha con pescado fresco y jugo de limón.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/special-menu-3.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            CEVICHE FILETE
+                                            <div class="line"></div>
+                                            <div class="dit-line">Delicioso ceviche de pescado fresco, marinado en jugo de limón con cebolla, cilantro y un toque de picante.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            TRIOS MARINOS
+                                            <div class="line"></div>
+                                            <div class="dit-line">Exquisita combinación de mariscos frescos, sazonados y acompañados de salsas artesanales, perfectos para compartir.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <div id="bebidas"class="special-menu pad-top-100 parallax">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center">BEBIDAS</h2>
+                    </div>
+                    <div class="special-box">
+                        <div class="owl-carousel" id="owl-demo-drinks">
+                            <div class="item item-type-zoom" data-img="assets/session-1.jpg">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">Chicha Morada</div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="assets/session-1.jpg" alt="Chicha Morada" class="carousel-image">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom" data-img="assets/session-2.jpg">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">Clarito</div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="assets/session-2.jpg" alt="Clarito" class="carousel-image">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom" data-img="assets/12.png">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">Cerveza de Trigo</div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="assets/12.png" alt="Cerveza de Trigo" class="carousel-image">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom" data-img="assets/cerveza.png">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">Cerveza Cristal</div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="assets/cerveza.png" alt="Cerveza Cristal" class="carousel-image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    
+    <!-- Modal for larger image -->
+    <div id="imageModal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="caption" id="caption"></div>
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10095;</button>
+    </div>
+    
+    <!-- Agregar los enlaces a jQuery y Owl Carousel -->
+    <link rel="stylesheet" href="path/to/owl.carousel.min.css">
+    <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="path/to/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#owl-demo-drinks').owlCarousel({
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            loop: true,
+            nav: false,
+            dots: true,
+        });
+    
+        // Image click event
+        $('.item-img img').click(function() {
+            const src = $(this).closest('.item').data('img');
+            $('#modalImage').attr('src', src);
+            $('#imageModal').show();
+        });
+    
+        // Close modal
+        $('#closeModal').click(function() {
+            $('#imageModal').hide();
+        });
+    
+        // Navigate through images
+        let currentIndex = 0;
+    
+        function updateModalImage(index) {
+            const src = $('.item').eq(index).data('img');
+            $('#modalImage').attr('src', src);
+            $('#caption').text($('.item').eq(index).find('.headline').text());
+        }
+    
+        $('#prevBtn').click(function() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateModalImage(currentIndex);
+            }
+        });
+    
+        $('#nextBtn').click(function() {
+            if (currentIndex < $('.item').length - 1) {
+                currentIndex++;
+                updateModalImage(currentIndex);
+            }
+        });
+    
+        // Update index on modal open
+        $('.item-img img').click(function() {
+            currentIndex = $(this).closest('.item').index();
+            updateModalImage(currentIndex);
+        });
+    });
+    </script>
+    
+    <style>
+    .carousel-image {
+        height: 150px; /* Ajusta la altura según sea necesario */
+        width: auto; /* Mantiene la relación de aspecto */
+        object-fit: cover; /* Mantiene la relación de aspecto */
+        display: block; /* Asegura que la imagen se muestre como bloque */
+        margin: 0 auto; /* Centra la imagen */
+    }
+    
+    .item-img {
+        text-align: center; /* Centra la imagen dentro del contenedor */
+        display: flex; /* Utiliza flexbox para centrar verticalmente */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 200px; /* Altura del contenedor */
+    }
+    
+    .modal {
+        display: none; /* Ocultar el modal por defecto */
+        position: fixed;
+        z-index: 1; /* Asegúrate de que el modal esté por encima */
+        left: 0;
+        top: 0;
+        width: 100%; /* Ancho completo */
+        height: 100%; /* Altura completa */
+        overflow: auto; /* Habilita el desplazamiento si es necesario */
+        background-color: rgb(0,0,0); /* Fondo negro */
+        background-color: rgba(0,0,0,0.9); /* Fondo negro con opacidad */
+    }
+    
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%; /* Ancho de la imagen */
+        max-width: 700px; /* Ancho máximo */
+    }
+    
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #prevBtn, #nextBtn {
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    #prevBtn {
+        left: 10px;
+    }
+    
+    #nextBtn {
+        right: 10px;
+    }
+    
+    #caption {
+        text-align: center;
+        color: rgb(216, 3, 3);
+        margin-top: 10px;
+    }
+    
+    /* Estilos para pantallas grandes */
+    @media (min-width: 768px) {
+        .item-img {
+            height: 300px; /* Altura del contenedor */
+        }
+    
+        .carousel-image {
+            height: 80%; /* La imagen ocupará el 80% de la altura del contenedor */
+            max-width: 80%; /* La imagen se ajustará al ancho máximo */
+        }
+    }
+    </style>
+    
+    
+
+    <!-- end team-main -->
+
+   <div class="about-main pad-top-100 pad-bottom-100">
+            <div class="container">
+            <div class="row">
+                <div id="platos" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            PLATOS
+                        </h2>
+                        <p class="title-caption text-center">Descubre nuestra deliciosa selección de platos que celebran la riqueza de la gastronomía.</p>
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="images/gallery_01.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_01.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 1 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="images/gallery_02.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_02.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 2 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="images/gallery_03.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_03.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 3 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="images/gallery_04.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_04.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 4 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="images/gallery_05.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_05.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 5 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="images/gallery_06.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_06.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 6 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="images/gallery_07.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_07.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 7 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#11">
+                                    <img src="images/gallery_08.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="11" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_08.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 8 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#12">
+                                    <img src="images/gallery_09.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="12" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_09.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 9 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#13">
+                                    <img src="images/gallery_10.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="13" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_10.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 10 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end gal-container -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end gallery-main -->
+
+    <div id="carta" class="blog-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+                       Platos A La Carta
+                    </h2>
+                    <div class="blog-box clearfix">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/lomito_saltado.jpg" alt="Lomito Saltado" />
+                                        <div class="overlay">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <h2>Lomito Saltado</h2>
+                                        <p>Un delicioso plato de carne salteada con cebolla, tomate y papas fritas, servido con arroz.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/bistek_solo_pobre.jpg" alt="Bistek Solo Pobre" />
+                                        <div class="overlay">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <h2>Bistek Solo Pobre</h2>
+                                        <p>Un jugoso bistec acompañado de arroz, papas fritas y huevo frito.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/chaufa_pollo.jpg" alt="Chaufa de Pollo" />
+                                        <div class="overlay">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <h2>Chaufa de Pollo</h2>
+                                        <p>Arroz frito con pollo, verduras y un toque de salsa de soja, ideal para los amantes del sabor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/chaufa_carne.jpg" alt="Chaufa de Carne" />
+                                        <div class="overlay">
+                                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <h2>Chaufa de Carne</h2>
+                                        <p>Arroz frito con carne de res, verduras frescas y un toque especial de condimentos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end blog-main -->
+    
+                    <!-- end blog-box -->
+
+                    <div class="blog-btn-v">
+                  
+                    </div>
+
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end blog-main -->
+
+    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" style="margin-top: 100px;"> <!-- Ajusta el valor del margen según necesites -->
+                        <h2 class="block-title text-center">Nuestro Menú</h2>
+                        <p class="title-caption text-center">Disfruta de una variedad de ceviches y platos de mariscos, elaborados con los ingredientes más frescos.</p>
+                        <div style="margin-top: 100px;"> <!-- Ajusta el valor del margen según necesites -->
+                            <div class="tab-menu">
+                                <div class="slider slider-nav">
+                                    <div class="tab-title-menu">
+                                        <h2>CEVICHES</h2>
+                                        <p><i class="flaticon-fish"></i></p>
+                                    </div>
+                                    <div class="tab-title-menu">
+                                        <h2>CHICHARRONES</h2>
+                                        <p><i class="flaticon-fried"></i></p>
+                                    </div>
+                                    <div class="tab-title-menu">
+                                        <h2>ARROZ</h2>
+                                        <p><i class="flaticon-rice"></i></p>
+                                    </div>
+                                </div>
+                                <div class="slider slider-single">
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Ceviche de Filete</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Ceviche de Caballa</h3>
+                                                <p>S/. 20.00, S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Ceviche de Conchas Negras</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Ceviche Mixto</h3>
+                                                <p>S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Leche de Tigre</h3>
+                                                <p>S/. 15.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chicharrón de Pescado</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chicharrón Mixto</h3>
+                                                <p>S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Jalea de Pescado</h3>
+                                                <p>S/. 30.00, S/. 35.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Jalea Mixta</h3>
+                                                <p>S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chicharrón de Pollo</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Arroz con Mariscos</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chaufa con Mariscos</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chaufa de Pollo</h3>
+                                                <p>S/. 20.00, S/. 25.00, S/. 30.00, S/. 35.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Porción de Arroz</h3>
+                                                <p>S/. 5.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" style="margin-top: 100px;">
+                        <h2 class="block-title text-center">A la Carta</h2>
+                        <p class="title-caption text-center">Deléitate con nuestra selección de platos preparados con pasión y frescura.</p>
+                        <div style="margin-top: 100px;">
+                            <div class="tab-menu">
+                                <div class="slider slider-nav">
+                                    <div class="tab-title-menu">
+                                        <h2>PLATOS DE LA CARTA</h2>
+                                        <p><i class="flaticon-dish"></i></p>
+                                    </div>
+                                    <div class="tab-title-menu">
+                                        <h2>PARRILLA</h2>
+                                        <p><i class="flaticon-meat"></i></p>
+                                    </div>
+                                    <div class="tab-title-menu">
+                                        <h2>Carnes</h2>
+                                        <p><i class="flaticon-drink"></i></p>
+                                    </div>
+                                    <div class="tab-title-menu">
+                                        <h2>Bebidas</h2>
+                                        <p><i class="flaticon-drink"></i></p>
+                                    </div>
+                                </div>
+                                <div class="slider slider-single">
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Lomo Saltado</h3>
+                                                <p>S/. 18.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Bistec a lo Pobre</h3>
+                                                <p>S/. 18.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Chaufa de Pollo</h3>
+                                                <p>S/. 15.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Arroz con Mariscos</h3>
+                                                <p>S/. 25.00, S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Parrilla de Cerdo</h3>
+                                                <p>S/. 17.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Parrilla de Carne</h3>
+                                                <p>S/. 16.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Parrilla de Pollo</h3>
+                                                <p>S/. 16.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Carne Seca con Chifles</h3>
+                                                <p>S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Seco de Chavelo</h3>
+                                                <p>S/. 30.00, S/. 35.00, S/. 40.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Cerveza Cristal</h3>
+                                                <p>S/. 8.50</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Cerveza de Trigo</h3>
+                                                <p>S/. 10.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Cerveza Negra</h3>
+                                                <p>S/. 11.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Jarra de Clarito</h3>
+                                                <p>S/. 8.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="offer-item">
+                                                <h3>Jarra de Maracuyá</h3>
+                                                <p>S/. 8.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="form-reservations-box">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="block-title text-center">
+                                ¡Reserva tu Mesa!
+                            </h2>
+                        </div>
+                        <h4 class="form-title">NUESTRA FILOSOFÍA</h4>
+                        <p>“Donde cada plato es una obra maestra del mar.”</p>
+                        <p>“Disfruta la frescura de nuestros ceviches, sin par.”</p>
+                        <p>“Tu experiencia única comienza aquí, en Braveza Marina, un festín a compartir.”</p>
+                        <p>“Sabores que cuentan historias, momentos para recordar,</p>
+                        <p>cada bocado es un viaje, que no puedes olvidar.”</p>
+                        <p>“El arte de la cocina marina, con amor y sin prisa,</p>
+                        <p>celebramos la vida, en cada sonrisa.”</p>
+                        <p>“Déjate llevar por el océano de sabores,</p>
+                        <p>en cada plato hay un rincón de amores.”</p>
+                        <p>“La pasión por el mar, en cada plato servimos,</p>
+                        <p>y en cada bocado, nuestras almas unimos.”</p>
+                        <p>“Ven y disfruta, siente la conexión,</p>
+                        <p>en Braveza Marina, la mejor elección.”</p>
+                        <p>“Entre amigos y familia, saborea la emoción,</p>
+                        <p>cada cena es un canto, una celebración.”</p>
+                        <p>“Un lugar especial, donde todos pueden soñar,</p>
+                        <p>en cada comida, un motivo para amar.”</p>
+                        <p>“Recuerdos que flotan, como el mar en su andar,</p>
+                        <p>cada plato una historia, un mundo por explorar.”</p>
+                        <p>“Con cada bocado, un nuevo horizonte,</p>
+                        <p>en Braveza Marina, el placer es un monte.”</p>
+                        <p>“La magia del mar, en cada rincón,</p>
+                        <p>un festín de sabores, una gran unión.”</p>
+                        <p>“Así que ven y únete a nuestra aventura,</p>
+                        <p>en Braveza Marina, la vida es pura locura.”</p>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end reservations-box -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end reservations-main -->
+    
+    
+    <div id="footer" class="footer-main">
+        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="ft-title color-white text-center">Gracias por su visita a la página</h2>
+                            <p class="text-center">Esperamos que haya disfrutado de su experiencia. Aquí encontrará lo mejor de nuestra oferta culinaria, y estamos comprometidos a brindarle un servicio excepcional en cada visita. ¡Vuelva pronto!</p>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+    </div>
+    
+        <!-- end footer-news -->
+<div class="footer-box pad-top-70">
+    <div class="container">
+        <div class="row">
+            <div class="footer-in-main">
+                <div class="footer-logo">
+                    <div class="text-center">
+                        <img src="images/logo.png" alt="Braveza del Mar" />
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-box-a">
+                        <h3>Bienvenido a Braveza del Mar</h3>
+                        <p>Donde cada plato es una celebración de los sabores del mar.</p>
+                        <p><strong></strong></p>
+                        <p><i class="fa fa-mobile" aria-hidden="true"></i> +51 949 395 303</p>
+
+                    </div>
+                    <!-- end footer-box-a -->
+                </div>
+                <!-- end col -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-box-b">
+                        <h3>Boletín Informativo</h3>
+                        <p>¡No te pierdas nuestras ofertas frescas y deliciosas! Regístrate hoy y únete a nuestra comunidad de amantes del ceviche.</p>
+                        <form>
+                        </form>
+                    </div>
+                    <!-- end footer-box-b -->
+                </div>
+                <!-- end col -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-box-c">
+                        <h3>Contáctanos</h3>
+                        <p>
+                            <i class="fa fa-map-signs" aria-hidden="true"></i>
+                            <span>+51 949 395 303</span>
+                        </p>
+                    </div>
+                    <!-- end footer-box-c -->
+                </div>
+                <!-- end col -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-box-d">
+                        <h3>Horarios de Atención</h3>
+                        <ul>
+                            <li>
+                                <p>Lunes - Viernes</p>
+                                <span>8:00 AM - 12:00 PM</span>
+                            </li>
+                            <li>
+                                <p>Viernes - Sábado</p>
+                                <span>8:00 AM - 12:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- end footer-box-d -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end footer-in-main -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+    <div id="copyright" class="copyright-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h6 class="copy-title"> Copyright &copy; 2024 Braveza del Mar. Todos los derechos reservados.</h6>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end copyright-main -->
+</div>
+<!-- end footer-box -->
+</div>
+<!-- end footer-main -->
+
+<a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+<section id="color-panel" class="close-color-panel">
+    <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
+    <!-- Colors -->
+    <div class="segment">
+        <h4 class="gray2 normal no-padding">Color Scheme</h4>
+        <a title="orange" class="switcher orange-bg"></a>
+        <a title="strong-blue" class="switcher strong-blue-bg"></a>
+        <a title="moderate-green" class="switcher moderate-green-bg"></a>
+        <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+    </div>
+</section>
+
+<!-- ALL JS FILES -->
+<script src="all.js"></script>
+<script src="bootstrap.min.js"></script>
+<!-- ALL PLUGINS -->
+<script src="custom.js"></script>
+</body>
+
+</html>
